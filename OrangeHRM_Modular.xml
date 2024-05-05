@@ -1,0 +1,78 @@
+
+<suite name = "Orange HRM Test Suite">
+	
+ 
+	<test name = "Admin Login With Valid Inputs">
+		
+		<parameter name = "adminid" value = "Admin"></parameter>
+		
+		<parameter name = "adminpwd" value = "Qedge123!@#"></parameter>
+		
+		<classes>
+			
+			<class name = "orangeHrm.testcases.AdminLoginTestWithValidInputs"></class>		
+			
+		</classes>	
+	</test>
+	
+	<test name = "Admin Login With Invliad Inputs">
+		
+		<parameter name = "uid" value = "xyz"></parameter>
+		<parameter name= "pwd" value = "qed@g"></parameter>
+	<classes>
+		
+		<class name = "orangeHrm.testcases.AdminLoginWithInvalidInputs"></class>
+		
+	</classes>
+		
+		
+	</test>
+	
+	<test name = " New Employee Regitration">
+		
+		<parameter name = "Fname" value = "maxpayne"></parameter>
+		
+		<parameter name = "Lname" value = "pc"></parameter>
+		
+		<classes>
+			
+			<class name = "orangeHrm.testcases.EmployeeRegistrationTest"></class>
+			
+		</classes>
+				
+	</test>
+	
+	
+	<test name = "New User Registration">
+		
+			<parameter name = "rol" value = "ESS"></parameter>
+			<parameter name = "Emapname" value = "maxpayne pc"></parameter>
+			<parameter name = "Username" value = "maxpayne"></parameter>
+			<parameter name = "Password" value = "Maxpayne@123!@#"></parameter>
+			
+			<classes>
+				
+				<class name = "orangeHrm.testcases.UserRegistrationTest"> </class>
+				
+				</classes>
+				
+				</test>
+
+	
+	<test name= "New User Login">
+		
+		<parameter name = "userid"  value = "maxpayne"></parameter>
+		
+		<parameter name = "userpwd" value = "Maxpayne@123!@#"></parameter>
+		
+		<classes>
+			
+			<class name = "orangeHrm.testcases.EmployeeLoginTest"></class>
+			
+		</classes>
+		
+	</test>
+	
+
+	
+</suite>

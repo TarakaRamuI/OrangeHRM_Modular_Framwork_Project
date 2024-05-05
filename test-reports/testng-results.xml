@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T15:30:08 IST" name="Orange HRM Test Suite" finished-at="2024-03-22T15:30:28 IST" duration-ms="19465">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T15:30:08 IST" name="Admin Login With Valid Inputs" finished-at="2024-03-22T15:30:11 IST" duration-ms="2666">
+      <class name="orangeHrm.testcases.AdminLoginTestWithValidInputs">
+        <test-method signature="checkAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:orangeHrm.testcases.AdminLoginTestWithValidInputs@56cdfb3b]" started-at="2024-03-22T15:30:09 IST" name="checkAdminLogin" finished-at="2024-03-22T15:30:11 IST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- orangeHrm.testcases.AdminLoginTestWithValidInputs -->
+    </test> <!-- Admin Login With Valid Inputs -->
+    <test started-at="2024-03-22T15:30:11 IST" name="Admin Login With Invliad Inputs" finished-at="2024-03-22T15:30:12 IST" duration-ms="655">
+      <class name="orangeHrm.testcases.AdminLoginWithInvalidInputs">
+        <test-method signature="checkAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:orangeHrm.testcases.AdminLoginWithInvalidInputs@2ea41516]" started-at="2024-03-22T15:30:11 IST" name="checkAdminLogin" finished-at="2024-03-22T15:30:12 IST" duration-ms="650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qed@g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- orangeHrm.testcases.AdminLoginWithInvalidInputs -->
+    </test> <!-- Admin Login With Invliad Inputs -->
+    <test started-at="2024-03-22T15:30:12 IST" name=" New Employee Regitration" finished-at="2024-03-22T15:30:17 IST" duration-ms="5029">
+      <class name="orangeHrm.testcases.EmployeeRegistrationTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangeHrm.testcases.EmployeeRegistrationTest@1de5f259]" started-at="2024-03-22T15:30:12 IST" name="adminLogin" finished-at="2024-03-22T15:30:13 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkEmpReg(java.lang.String,java.lang.String)[pri:0, instance:orangeHrm.testcases.EmployeeRegistrationTest@1de5f259]" started-at="2024-03-22T15:30:13 IST" name="checkEmpReg" finished-at="2024-03-22T15:30:16 IST" duration-ms="3195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maxpayne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpReg -->
+        <test-method is-config="true" signature="loout()[pri:0, instance:orangeHrm.testcases.EmployeeRegistrationTest@1de5f259]" started-at="2024-03-22T15:30:16 IST" name="loout" finished-at="2024-03-22T15:30:17 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loout -->
+      </class> <!-- orangeHrm.testcases.EmployeeRegistrationTest -->
+    </test> <!--  New Employee Regitration -->
+    <test started-at="2024-03-22T15:30:17 IST" name="New User Registration" finished-at="2024-03-22T15:30:26 IST" duration-ms="9174">
+      <class name="orangeHrm.testcases.UserRegistrationTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:orangeHrm.testcases.UserRegistrationTest@66f57048]" started-at="2024-03-22T15:30:17 IST" name="adminLogin" finished-at="2024-03-22T15:30:18 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangeHrm.testcases.UserRegistrationTest@66f57048]" started-at="2024-03-22T15:30:18 IST" name="checkUserRegistration" finished-at="2024-03-22T15:30:25 IST" duration-ms="7403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[maxpayne pc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[maxpayne]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Maxpayne@123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserRegistration -->
+        <test-method is-config="true" signature="loout()[pri:0, instance:orangeHrm.testcases.UserRegistrationTest@66f57048]" started-at="2024-03-22T15:30:25 IST" name="loout" finished-at="2024-03-22T15:30:26 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loout -->
+      </class> <!-- orangeHrm.testcases.UserRegistrationTest -->
+    </test> <!-- New User Registration -->
+    <test started-at="2024-03-22T15:30:26 IST" name="New User Login" finished-at="2024-03-22T15:30:28 IST" duration-ms="1780">
+      <class name="orangeHrm.testcases.EmployeeLoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:orangeHrm.testcases.EmployeeLoginTest@290222c1]" started-at="2024-03-22T15:30:04 IST" name="launchApp" finished-at="2024-03-22T15:30:08 IST" duration-ms="3994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="empLogin()[pri:0, instance:orangeHrm.testcases.EmployeeLoginTest@290222c1]" started-at="2024-03-22T15:30:26 IST" name="empLogin" finished-at="2024-03-22T15:30:27 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empLogin -->
+        <test-method signature="checkNewUserLogin()[pri:0, instance:orangeHrm.testcases.EmployeeLoginTest@290222c1]" started-at="2024-03-22T15:30:27 IST" name="checkNewUserLogin" finished-at="2024-03-22T15:30:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewUserLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:orangeHrm.testcases.EmployeeLoginTest@290222c1]" started-at="2024-03-22T15:30:27 IST" name="logout" finished-at="2024-03-22T15:30:28 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:orangeHrm.testcases.EmployeeLoginTest@290222c1]" started-at="2024-03-22T15:30:28 IST" name="closeApp" finished-at="2024-03-22T15:30:28 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangeHrm.testcases.EmployeeLoginTest -->
+    </test> <!-- New User Login -->
+  </suite> <!-- Orange HRM Test Suite -->
+</testng-results>
